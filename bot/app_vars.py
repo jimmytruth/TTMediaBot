@@ -5,14 +5,14 @@ from typing import Callable, TYPE_CHECKING
 if TYPE_CHECKING:
     from bot.translator import Translator
 
-app_name = "TTMediaBot"
-app_version = "2.3.1"
+app_name = "TTMediaBot By Ramon Salazar"
+app_version = "0.0.0"
 client_name = app_name + "-V" + app_version
 about_text: Callable[[Translator], str] = lambda translator: translator.translate(
     """\
 A media streaming bot for TeamTalk.
-Authors: Amir Gumerov, Vladislav Kopylov, Beqa Gozalishvili, Kirill Belousov.
-Home page: https://github.com/gumerov-amir/TTMediaBot\
+Authors: Ramon Salazar, and Jimmy Truth.
+Home page: https://github.com/RamonSalazar/TTMediaBot\
 License: Mit License\
 """
 )
